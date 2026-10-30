@@ -1,0 +1,8 @@
+<h1>Most popular films</h1>
+
+<p> according to Google</p>
+<ul>
+    {% for film in films %}
+    <li>{{film.title}} - {{film.release_year}}</li>
+    {% endfor %}
+</ul>
